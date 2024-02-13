@@ -5,7 +5,28 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98b5ac7a-7d96-4aad-94d9-004117d7a70d" name="Changes" comment="Init">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/khell-processes/src/main/kotlin/org/ldemetrios/khell/Terminal.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project-clean.dot.png" beforeDir="false" afterPath="$PROJECT_DIR$/project-clean.dot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project.dot.png" beforeDir="false" afterPath="$PROJECT_DIR$/project.dot.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/Aqueduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/Aqueduct.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/Fast.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/Fast.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/Flanges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/Flanges.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/IterableFunctionConduits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/IterableFunctionConduits.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/Terminal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/TerminalFlange.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/sugar/ParametrizedFlanges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/sugar/ParametrizedFlanges.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/sugar/Redirect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/sugar/Redirect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/sugar/SpecialFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/sugar/SpecialFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/sugar/Sugar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/sugar/Sugar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/org/ldemetrios/khell/Basic.kt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,23 +46,7 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="khell" type="f1a62948:ProjectNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="khell" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="khell" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="publishing" type="c8890929:TasksNode$1" />
-              </path>
-            </expand>
+            <expand />
             <select />
           </tree_state>
         </projects_view>
@@ -58,12 +63,15 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.ldemetrios/common-utils/1.0-SNAPSHOT/f0dea2be6d7cf67e83fe0ec52921c7ae8c94f4d4/common-utils-1.0-SNAPSHOT.jar!/org/ldemetrios/utilities/constants/Constants.class" root0="SKIP_INSPECTION" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2c3TBRIG70RJli1wXSh2PgwCEMr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -72,22 +80,33 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Gradle.Basic.basic.executor": "Run",
     "Gradle.Basic.executor": "Run",
+    "Gradle.Build KHell.executor": "Run",
+    "Gradle.Download Sources.executor": "Run",
     "Gradle.KHell [publishToMavenLocal].executor": "Run",
+    "Kotlin.TerminalFlangeKt.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "jdk.selected.JAVA_MODULE": "21",
     "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/ldemetrios/Workspace/LDemetriosCommons",
+    "onboarding.tips.debug.path": "/home/ldemetrios/Workspace/KHell/khell-processes/src/main/kotlin/Main.kt",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/khell/src/main/kotlin" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Basic">
+  <component name="RunManager" selected="Kotlin.TerminalFlangeKt">
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -100,6 +119,9 @@
       </method>
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <option name="configVersion" value="1" />
+      <option name="options" />
+      <option name="profiles" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
@@ -138,6 +160,30 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
+    <configuration name="Basic.basic" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":khell:test" />
+            <option value="--tests" />
+            <option value="&quot;org.ldemetrios.khell.Basic.basic&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>true</RunAsTest>
+      <method v="2" />
+    </configuration>
     <configuration name="KHell [publishToMavenLocal]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -159,6 +205,26 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <RunAsTest>false</RunAsTest>
       <method v="2" />
+    </configuration>
+    <configuration name="TerminalFlangeKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.ldemetrios.khell.TerminalFlangeKt" />
+      <module name="khell-root.khell.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="KHell" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="KHell" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration default="true" type="aws.lambda" factoryName="Local">
       <option name="credentialProviderId" />
@@ -201,8 +267,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Basic" />
+        <item itemvalue="Kotlin.TerminalFlangeKt" />
         <item itemvalue="Gradle.KHell [publishToMavenLocal]" />
+        <item itemvalue="Gradle.Basic.basic" />
+        <item itemvalue="Gradle.Basic" />
       </list>
     </recent_temporary>
   </component>
@@ -229,5 +297,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Init" />
     <option name="LAST_COMMIT_MESSAGE" value="Init" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/untitled/src/main/kotlin/Main.kt</url>
+          <line>13</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
