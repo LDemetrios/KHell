@@ -14,7 +14,7 @@ repositories {
 
 
 group = "org.ldemetrios"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 //dependencies {
 //    implementation("org.jetbrains.kotlin:kotlin-script-runtime:RELEASE")

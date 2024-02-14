@@ -1,6 +1,7 @@
 package org.ldemetrios.khell
 
 import java.io.BufferedReader
+import java.io.File
 import java.io.InputStreamReader
 import java.util.stream.Collectors
 
@@ -19,8 +20,9 @@ data class ExecResult(
     val returnCode: Int
 )
 
-fun exec(command: List<String>, input: String? = null): ExecResult {
+fun exec(command: List<String>, input: String? = null, root: File? = null): ExecResult {
     val builder = ProcessBuilder(command)
+    if (root != null) builder.directory(root)
     val process = builder.start()
 
     if (input != null) process.outputStream.write(input.toByteArray())
@@ -39,8 +41,8 @@ fun exec(command: List<String>, input: String? = null): ExecResult {
     )
 }
 
-operator fun String.invoke(vararg args: String): List<String> {
-    val (command, output, error, ret) = exec(listOf(this) + args)
+fun call(command: List<String>): List<String> {
+    val (command, output, error, ret) = exec(command)
 
     for (e in error) System.err.println(e)
 
@@ -53,6 +55,8 @@ operator fun String.invoke(vararg args: String): List<String> {
 
     return output
 }
+
+operator fun String.invoke(vararg args: String): List<String> = call(listOf(this) + args)
 
 fun errno(code: Int): String = when (code) {
     1 -> "[EPERM] Operation not permitted"

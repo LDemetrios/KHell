@@ -1,5 +1,5 @@
 group = "org.ldemetrios"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.9.21")

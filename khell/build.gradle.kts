@@ -1,5 +1,5 @@
 group = "org.ldemetrios"
-version = "1.0-SNAPSHOT"
+version = "1.0"
 
 dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test-junit5:1.9.21")
@@ -12,6 +12,6 @@ dependencies {
     implementation("org.jetbrains.kotlin:kotlin-reflect:1.9.0")
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3")
 
-    implementation("org.ldemetrios:common-utils:1.0-SNAPSHOT")
+    implementation("org.ldemetrios:common-utils:1.0")
     implementation(project(":khell-processes"))
 }
