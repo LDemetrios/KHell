@@ -13,6 +13,4 @@ plugins {
 //    id("org.gradle.toolchains.foojay-resolver-convention") version "0.7.0"
 //}
 
-rootProject.name = "khell-root"
-include("khell")
-include("khell-processes")
+rootProject.name = "khell"

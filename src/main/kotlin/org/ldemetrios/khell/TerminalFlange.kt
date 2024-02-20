@@ -2,10 +2,14 @@ package org.ldemetrios.khell
 
 import kotlinx.coroutines.channels.*
 import org.ldemetrios.khell.sugar.*
+import org.ldemetrios.utilities.TerminalException
+import org.ldemetrios.utilities.errno
+import org.ldemetrios.utilities.exec
+import org.ldemetrios.utilities.toOnelineCommand
 
 fun terminal(vararg command: String, verboseCommandInException: Boolean = true) =
     UnsafeFlange<String, String, String, TerminalException> {
-        val (_, output, error, ret) = exec(
+        val ( output, error, ret) = exec(
             command.toList(),
             input = input.toList().joinToString(System.lineSeparator())
         )

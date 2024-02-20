@@ -8,8 +8,6 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
-            <option value="$PROJECT_DIR$/khell" />
-            <option value="$PROJECT_DIR$/khell-processes" />
           </set>
         </option>
       </GradleProjectSettings>

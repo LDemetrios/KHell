@@ -5,11 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="98b5ac7a-7d96-4aad-94d9-004117d7a70d" name="Changes" comment="Extract terminal calls in separate lib">
+      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khell-processes/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/khell-processes/build.gradle.kts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khell-processes/src/main/kotlin/org/ldemetrios/khell/Terminal.kt" beforeDir="false" afterPath="$PROJECT_DIR$/khell-processes/src/main/kotlin/org/ldemetrios/khell/Terminal.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/khell/build.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/khell/build.gradle.kts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell-processes/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell-processes/src/main/kotlin/org/ldemetrios/khell/Terminal.kt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/build.gradle.kts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/Aqueduct.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/Aqueduct.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/Fast.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/Fast.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/Flanges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/Flanges.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/IterableFunctionConduits.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/IterableFunctionConduits.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/TerminalFlange.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/TerminalFlange.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/Type.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/Type.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/sugar/ParametrizedFlanges.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/sugar/ParametrizedFlanges.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/sugar/Redirect.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/sugar/Redirect.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/sugar/SpecialFunctions.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/sugar/SpecialFunctions.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/main/kotlin/org/ldemetrios/khell/sugar/Sugar.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/org/ldemetrios/khell/sugar/Sugar.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/khell/src/test/kotlin/org/ldemetrios/khell/Basic.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/org/ldemetrios/khell/Basic.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle.kts" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle.kts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +44,17 @@
         </task>
         <projects_view>
           <tree_state>
-            <expand />
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="khell" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="khell" type="f1a62948:ProjectNode" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
+              </path>
+            </expand>
             <select />
           </tree_state>
         </projects_view>
@@ -90,45 +115,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Kotlin.TerminalFlangeKt">
-    <configuration default="true" type="aws.lambda" factoryName="Local">
-      <option name="credentialProviderId" />
-      <option name="regionId" />
-      <option name="debugHost" value="localhost" />
-      <option name="architecture" />
-      <option name="environmentVariables">
-        <map />
-      </option>
-      <option name="handler" />
-      <option name="image" value="false" />
-      <option name="logicalFunctionName" />
-      <option name="memorySize" value="128" />
-      <option name="pathMappings">
-        <list />
-      </option>
-      <option name="platform" />
-      <option name="runtime" />
-      <option name="templateFile" />
-      <option name="timeout" value="300" />
-      <option name="useTemplate" value="false" />
-      <option name="input" />
-      <option name="inputIsFile" value="false" />
-      <sam>
-        <option name="additionalBuildArgs" />
-        <option name="additionalLocalArgs" />
-        <option name="buildInContainer" value="false" />
-        <option name="dockerNetwork" />
-        <option name="skipImagePull" value="false" />
-      </sam>
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="aws.lambda" factoryName="Remote">
-      <option name="credentialProviderId" />
-      <option name="regionId" />
-      <option name="functionName" />
-      <option name="input" />
-      <option name="inputIsFile" value="false" />
-      <method v="2" />
-    </configuration>
     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
       <setting name="displayName" value="" />
       <setting name="bbPath" value="" />
@@ -247,6 +233,45 @@
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration default="true" type="aws.lambda" factoryName="Local">
+      <option name="credentialProviderId" />
+      <option name="regionId" />
+      <option name="debugHost" value="localhost" />
+      <option name="architecture" />
+      <option name="environmentVariables">
+        <map />
+      </option>
+      <option name="handler" />
+      <option name="image" value="false" />
+      <option name="logicalFunctionName" />
+      <option name="memorySize" value="128" />
+      <option name="pathMappings">
+        <list />
+      </option>
+      <option name="platform" />
+      <option name="runtime" />
+      <option name="templateFile" />
+      <option name="timeout" value="300" />
+      <option name="useTemplate" value="false" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <sam>
+        <option name="additionalBuildArgs" />
+        <option name="additionalLocalArgs" />
+        <option name="buildInContainer" value="false" />
+        <option name="dockerNetwork" />
+        <option name="skipImagePull" value="false" />
+      </sam>
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="aws.lambda" factoryName="Remote">
+      <option name="credentialProviderId" />
+      <option name="regionId" />
+      <option name="functionName" />
+      <option name="input" />
+      <option name="inputIsFile" value="false" />
+      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
