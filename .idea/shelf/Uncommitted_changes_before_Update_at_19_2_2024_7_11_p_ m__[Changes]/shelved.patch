@@ -1,0 +1,206 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"AutoImportSettings\">\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\n  </component>\n  <component name=\"ChangeListManager\">\n    <list default=\"true\" id=\"98b5ac7a-7d96-4aad-94d9-004117d7a70d\" name=\"Changes\" comment=\"Init\">\n      <change afterPath=\"$PROJECT_DIR$/README.md\" afterDir=\"false\" />\n    </list>\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\n  </component>\n  <component name=\"ExternalProjectsData\">\n    <projectState path=\"$PROJECT_DIR$\">\n      <ProjectState />\n    </projectState>\n  </component>\n  <component name=\"ExternalProjectsManager\">\n    <system id=\"GRADLE\">\n      <state>\n        <task path=\"$PROJECT_DIR$\">\n          <activation />\n        </task>\n        <projects_view>\n          <tree_state>\n            <expand>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"khell\" type=\"f1a62948:ProjectNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"khell\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n              </path>\n              <path>\n                <item name=\"\" type=\"6a2764b6:ExternalProjectsStructure$RootNode\" />\n                <item name=\"khell\" type=\"f1a62948:ProjectNode\" />\n                <item name=\"Tasks\" type=\"e4a08cd1:TasksNode\" />\n                <item name=\"publishing\" type=\"c8890929:TasksNode$1\" />\n              </path>\n            </expand>\n            <select />\n          </tree_state>\n        </projects_view>\n      </state>\n    </system>\n  </component>\n  <component name=\"FileTemplateManagerImpl\">\n    <option name=\"RECENT_TEMPLATES\">\n      <list>\n        <option value=\"Kotlin File\" />\n      </list>\n    </option>\n  </component>\n  <component name=\"Git.Settings\">\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\n  </component>\n  <component name=\"MarkdownSettingsMigration\">\n    <option name=\"stateVersion\" value=\"1\" />\n  </component>\n  <component name=\"ProjectColorInfo\"><![CDATA[{\n  \"associatedIndex\": 6\n}]]></component>\n  <component name=\"ProjectId\" id=\"2c3TBRIG70RJli1wXSh2PgwCEMr\" />\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\n  <component name=\"ProjectViewState\">\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\n    <option name=\"showLibraryContents\" value=\"true\" />\n  </component>\n  <component name=\"PropertiesComponent\"><![CDATA[{\n  \"keyToString\": {\n    \"Gradle.Basic.executor\": \"Run\",\n    \"Gradle.KHell [publishToMavenLocal].executor\": \"Run\",\n    \"RunOnceActivity.OpenProjectViewOnStart\": \"true\",\n    \"RunOnceActivity.ShowReadmeOnStart\": \"true\",\n    \"kotlin-language-version-configured\": \"true\",\n    \"project.structure.last.edited\": \"Modules\",\n    \"project.structure.proportion\": \"0.0\",\n    \"project.structure.side.proportion\": \"0.0\"\n  }\n}]]></component>\n  <component name=\"RecentsManager\">\n    <key name=\"MoveFile.RECENT_KEYS\">\n      <recent name=\"$PROJECT_DIR$\" />\n    </key>\n  </component>\n  <component name=\"RunManager\" selected=\"Gradle.Basic\">\n    <configuration default=\"true\" type=\"Babashka\" factoryName=\"BabashkaLocalRepl\" activateToolWindowBeforeRun=\"false\">\n      <setting name=\"displayName\" value=\"\" />\n      <setting name=\"bbPath\" value=\"\" />\n      <setting name=\"parameters\" value=\"\" />\n      <option name=\"PARENT_ENVS\" value=\"true\" />\n      <setting name=\"workingDir\" value=\"\" />\n      <setting name=\"focusEditor\" value=\"false\" />\n      <method v=\"2\">\n        <option name=\"Make\" enabled=\"true\" />\n      </method>\n    </configuration>\n    <configuration default=\"true\" type=\"ClojureREPL\" factoryName=\"Local\" activateToolWindowBeforeRun=\"false\">\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"ClojureREPL\" factoryName=\"Remote\" activateToolWindowBeforeRun=\"false\">\n      <setting name=\"displayName\" value=\"\" />\n      <setting name=\"host\" value=\"\" />\n      <setting name=\"port\" value=\"0\" />\n      <setting name=\"replType\" value=\"SOCKET\" />\n      <setting name=\"configType\" value=\"SPECIFY\" />\n      <setting name=\"replPortFileType\" value=\"STANDARD\" />\n      <setting name=\"customPortFile\" value=\"\" />\n      <setting name=\"fixLineNumbers\" value=\"false\" />\n      <setting name=\"focusEditor\" value=\"false\" />\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"Basic\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" value=\"\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\":test\" />\n            <option value=\"--tests\" />\n            <option value=\"&quot;org.ldemetrios.khell.Basic&quot;\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>true</RunAsTest>\n      <method v=\"2\" />\n    </configuration>\n    <configuration name=\"KHell [publishToMavenLocal]\" type=\"GradleRunConfiguration\" factoryName=\"Gradle\" temporary=\"true\">\n      <ExternalSystemSettings>\n        <option name=\"executionName\" />\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"externalSystemIdString\" value=\"GRADLE\" />\n        <option name=\"scriptParameters\" />\n        <option name=\"taskDescriptions\">\n          <list />\n        </option>\n        <option name=\"taskNames\">\n          <list>\n            <option value=\"publishToMavenLocal\" />\n          </list>\n        </option>\n        <option name=\"vmOptions\" />\n      </ExternalSystemSettings>\n      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>\n      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>\n      <DebugAllEnabled>false</DebugAllEnabled>\n      <RunAsTest>false</RunAsTest>\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"aws.lambda\" factoryName=\"Local\">\n      <option name=\"credentialProviderId\" />\n      <option name=\"regionId\" />\n      <option name=\"debugHost\" value=\"localhost\" />\n      <option name=\"architecture\" />\n      <option name=\"environmentVariables\">\n        <map />\n      </option>\n      <option name=\"handler\" />\n      <option name=\"image\" value=\"false\" />\n      <option name=\"logicalFunctionName\" />\n      <option name=\"memorySize\" value=\"128\" />\n      <option name=\"pathMappings\">\n        <list />\n      </option>\n      <option name=\"platform\" />\n      <option name=\"runtime\" />\n      <option name=\"templateFile\" />\n      <option name=\"timeout\" value=\"300\" />\n      <option name=\"useTemplate\" value=\"false\" />\n      <option name=\"input\" />\n      <option name=\"inputIsFile\" value=\"false\" />\n      <sam>\n        <option name=\"additionalBuildArgs\" />\n        <option name=\"additionalLocalArgs\" />\n        <option name=\"buildInContainer\" value=\"false\" />\n        <option name=\"dockerNetwork\" />\n        <option name=\"skipImagePull\" value=\"false\" />\n      </sam>\n      <method v=\"2\" />\n    </configuration>\n    <configuration default=\"true\" type=\"aws.lambda\" factoryName=\"Remote\">\n      <option name=\"credentialProviderId\" />\n      <option name=\"regionId\" />\n      <option name=\"functionName\" />\n      <option name=\"input\" />\n      <option name=\"inputIsFile\" value=\"false\" />\n      <method v=\"2\" />\n    </configuration>\n    <recent_temporary>\n      <list>\n        <item itemvalue=\"Gradle.Basic\" />\n        <item itemvalue=\"Gradle.KHell [publishToMavenLocal]\" />\n      </list>\n    </recent_temporary>\n  </component>\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\n  <component name=\"TaskManager\">\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\n      <changelist id=\"98b5ac7a-7d96-4aad-94d9-004117d7a70d\" name=\"Changes\" comment=\"\" />\n      <created>1707339126852</created>\n      <option name=\"number\" value=\"Default\" />\n      <option name=\"presentableId\" value=\"Default\" />\n      <updated>1707339126852</updated>\n    </task>\n    <task id=\"LOCAL-00001\" summary=\"Init\">\n      <option name=\"closed\" value=\"true\" />\n      <created>1707341667443</created>\n      <option name=\"number\" value=\"00001\" />\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\n      <option name=\"project\" value=\"LOCAL\" />\n      <updated>1707341667443</updated>\n    </task>\n    <option name=\"localTasksCounter\" value=\"2\" />\n    <servers />\n  </component>\n  <component name=\"VcsManagerConfiguration\">\n    <MESSAGE value=\"Init\" />\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"Init\" />\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 5f36e360ccd91bcaeafd3e355e112fcc6ff094f7)
++++ b/.idea/workspace.xml	(date 1708359106223)
+@@ -4,8 +4,9 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="98b5ac7a-7d96-4aad-94d9-004117d7a70d" name="Changes" comment="Init">
+-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
++    <list default="true" id="98b5ac7a-7d96-4aad-94d9-004117d7a70d" name="Changes" comment="+ readme stub">
++      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+     </list>
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+@@ -61,33 +62,72 @@
+   <component name="MarkdownSettingsMigration">
+     <option name="stateVersion" value="1" />
+   </component>
+-  <component name="ProjectColorInfo"><![CDATA[{
+-  "associatedIndex": 6
+-}]]></component>
++  <component name="ProjectColorInfo">{
++  &quot;associatedIndex&quot;: 6
++}</component>
+   <component name="ProjectId" id="2c3TBRIG70RJli1wXSh2PgwCEMr" />
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectViewState">
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent"><![CDATA[{
+-  "keyToString": {
+-    "Gradle.Basic.executor": "Run",
+-    "Gradle.KHell [publishToMavenLocal].executor": "Run",
+-    "RunOnceActivity.OpenProjectViewOnStart": "true",
+-    "RunOnceActivity.ShowReadmeOnStart": "true",
+-    "kotlin-language-version-configured": "true",
+-    "project.structure.last.edited": "Modules",
+-    "project.structure.proportion": "0.0",
+-    "project.structure.side.proportion": "0.0"
++  <component name="PropertiesComponent">{
++  &quot;keyToString&quot;: {
++    &quot;Gradle.Basic.executor&quot;: &quot;Run&quot;,
++    &quot;Gradle.KHell [publishToMavenLocal].executor&quot;: &quot;Run&quot;,
++    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
++    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
++    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
++    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
++    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
++    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
+   }
+-}]]></component>
++}</component>
+   <component name="RecentsManager">
+     <key name="MoveFile.RECENT_KEYS">
+       <recent name="$PROJECT_DIR$" />
+     </key>
+   </component>
+   <component name="RunManager" selected="Gradle.Basic">
++    <configuration default="true" type="aws.lambda" factoryName="Local">
++      <option name="credentialProviderId" />
++      <option name="regionId" />
++      <option name="debugHost" value="localhost" />
++      <option name="architecture" />
++      <option name="environmentVariables">
++        <map />
++      </option>
++      <option name="handler" />
++      <option name="image" value="false" />
++      <option name="logicalFunctionName" />
++      <option name="memorySize" value="128" />
++      <option name="pathMappings">
++        <list />
++      </option>
++      <option name="platform" />
++      <option name="runtime" />
++      <option name="templateFile" />
++      <option name="timeout" value="300" />
++      <option name="useTemplate" value="false" />
++      <option name="input" />
++      <option name="inputIsFile" value="false" />
++      <sam>
++        <option name="additionalBuildArgs" />
++        <option name="additionalLocalArgs" />
++        <option name="buildInContainer" value="false" />
++        <option name="dockerNetwork" />
++        <option name="skipImagePull" value="false" />
++      </sam>
++      <method v="2" />
++    </configuration>
++    <configuration default="true" type="aws.lambda" factoryName="Remote">
++      <option name="credentialProviderId" />
++      <option name="regionId" />
++      <option name="functionName" />
++      <option name="input" />
++      <option name="inputIsFile" value="false" />
++      <method v="2" />
++    </configuration>
+     <configuration default="true" type="Babashka" factoryName="BabashkaLocalRepl" activateToolWindowBeforeRun="false">
+       <setting name="displayName" value="" />
+       <setting name="bbPath" value="" />
+@@ -100,6 +140,9 @@
+       </method>
+     </configuration>
+     <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
++      <option name="configVersion" value="1" />
++      <option name="options" />
++      <option name="profiles" />
+       <method v="2" />
+     </configuration>
+     <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+@@ -160,45 +203,6 @@
+       <RunAsTest>false</RunAsTest>
+       <method v="2" />
+     </configuration>
+-    <configuration default="true" type="aws.lambda" factoryName="Local">
+-      <option name="credentialProviderId" />
+-      <option name="regionId" />
+-      <option name="debugHost" value="localhost" />
+-      <option name="architecture" />
+-      <option name="environmentVariables">
+-        <map />
+-      </option>
+-      <option name="handler" />
+-      <option name="image" value="false" />
+-      <option name="logicalFunctionName" />
+-      <option name="memorySize" value="128" />
+-      <option name="pathMappings">
+-        <list />
+-      </option>
+-      <option name="platform" />
+-      <option name="runtime" />
+-      <option name="templateFile" />
+-      <option name="timeout" value="300" />
+-      <option name="useTemplate" value="false" />
+-      <option name="input" />
+-      <option name="inputIsFile" value="false" />
+-      <sam>
+-        <option name="additionalBuildArgs" />
+-        <option name="additionalLocalArgs" />
+-        <option name="buildInContainer" value="false" />
+-        <option name="dockerNetwork" />
+-        <option name="skipImagePull" value="false" />
+-      </sam>
+-      <method v="2" />
+-    </configuration>
+-    <configuration default="true" type="aws.lambda" factoryName="Remote">
+-      <option name="credentialProviderId" />
+-      <option name="regionId" />
+-      <option name="functionName" />
+-      <option name="input" />
+-      <option name="inputIsFile" value="false" />
+-      <method v="2" />
+-    </configuration>
+     <recent_temporary>
+       <list>
+         <item itemvalue="Gradle.Basic" />
+@@ -223,11 +227,20 @@
+       <option name="project" value="LOCAL" />
+       <updated>1707341667443</updated>
+     </task>
+-    <option name="localTasksCounter" value="2" />
++    <task id="LOCAL-00002" summary="+ readme stub">
++      <option name="closed" value="true" />
++      <created>1707341745151</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1707341745151</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
+     <servers />
+   </component>
+   <component name="VcsManagerConfiguration">
+     <MESSAGE value="Init" />
+-    <option name="LAST_COMMIT_MESSAGE" value="Init" />
++    <MESSAGE value="+ readme stub" />
++    <option name="LAST_COMMIT_MESSAGE" value="+ readme stub" />
+   </component>
+ </project>
+\ No newline at end of file
+Index: .idea/gradle.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<project version=\"4\">\n  <component name=\"GradleSettings\">\n    <option name=\"linkedExternalProjectsSettings\">\n      <GradleProjectSettings>\n        <option name=\"externalProjectPath\" value=\"$PROJECT_DIR$\" />\n        <option name=\"modules\">\n          <set>\n            <option value=\"$PROJECT_DIR$\" />\n          </set>\n        </option>\n      </GradleProjectSettings>\n    </option>\n  </component>\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/gradle.xml b/.idea/gradle.xml
+--- a/.idea/gradle.xml	(revision 5f36e360ccd91bcaeafd3e355e112fcc6ff094f7)
++++ b/.idea/gradle.xml	(date 1707341972082)
+@@ -1,5 +1,6 @@
+ <?xml version="1.0" encoding="UTF-8"?>
+ <project version="4">
++  <component name="GradleMigrationSettings" migrationVersion="1" />
+   <component name="GradleSettings">
+     <option name="linkedExternalProjectsSettings">
+       <GradleProjectSettings>
